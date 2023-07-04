@@ -1,0 +1,262 @@
+body {
+    margin: 0px;
+    background-color: #222222;
+    color: white;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+
+p.btn.btn-danger {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 100px;
+}
+
+p.btn.btn-success {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 100px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 150px;
+    margin-top: 127px;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 45px;
+    margin-bottom: 50px;
+}
+
+h2.entree {
+    margin-top: 25px;
+}
+
+p.description {
+    width: 557px;
+    word-wrap: break-word;
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+
+}
+
+a.btn.btn-warning {
+    background-color: #D6B178;
+    font-family: "Roboto", sans-serif;
+    color: rgb(255, 255, 255);
+    transition: 0.2s ease-in-out;
+    border: none;
+
+}
+
+a.btn.btn-warning:hover {
+    background-color: #ffffff;
+
+    color: #D6B178;
+}
+
+a.btn.btn-primary {
+    background-color: #D6B178;
+    font-family: "Roboto", sans-serif;
+    color: rgb(255, 255, 255);
+    transition: 0.2s ease-in-out;
+    border: none;
+
+
+}
+
+a.btn.btn-primary:hover {
+    background-color: #ffffff;
+
+    color: #D6B178;
+}
+
+a.btn.btn-success {
+    background-color: #D6B178;
+    font-family: "Roboto", sans-serif;
+    color: rgb(255, 255, 255);
+    transition: 0.2s ease-in-out;
+    border: none;
+
+}
+
+a.btn.btn-success:hover {
+    background-color: #ffffff;
+
+    color: #D6B178;
+}
+
+
+
+p.nom-prix {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 28px;
+    color: #D6B178;
+}
+
+a.btn {
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(62, 62, 62);
+    margin-top: 0px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 68px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+
+
+
+
+
+.wrapper-entree {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrapper-entree .contenue {
+    margin-bottom: 25px;
+}
+
+.wrapper-plats {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrapper-plats .contenue {
+    margin-bottom: 25px;
+}
+
+.wrapper-dessert {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrapper-dessert .contenue {
+    margin-bottom: 25px;
+
+}
+
+img {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    margin-bottom: 25px;
+    border-radius: 10px;
+}
+
+a.lien-fixe {
+    position: fixed;
+    top: 409px;
+    right: 0px;
+    background-color: #D6B178;
+    padding: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 10px 0px 0px 10px;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: 0.2s ease-in-out;
+    z-index: 20;
+}
+
+
+a.lien-fixe:hover {
+    background-color: white;
+    color: #D6B178;
+}
+
+.scroll-plats,
+.scroll-desserts {
+    text-decoration: none;
+    color: white;
+    background-color: #D6B178;
+    padding: 10px 20px;
+    font-family: "Roboto", sans-serif;
+    border-radius: 7px;
+    transition: 0.2s ease-in-out;
+
+
+}
+
+.scroll-plats:hover,
+.scroll-desserts:hover {
+    background-color: white;
+    color: #D6B178;
+}
+
+p.btn.btn-danger.message {
+    opacity: 1;
+    transition: opacity 2s;
+}
+
+p.btn.btn-success.message {
+    opacity: 1;
+    transition: opacity 2s;
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1213px) {
+    div.wrapper-entree {
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+
+    div.wrapper-plats {
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+
+    div.wrapper-dessert {
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+
+    img.img {
+        width: 557px;
+        height: 557px;
+    }
+
+    p.nom-prix {
+        margin-bottom: 0px;
+    }
+
+    div.contenue {
+        width: 557px;
+    }
+
+    .conteneur {
+
+
+        justify-content: center;
+        align-items: center;
+        flex-direction: column
+    }
+
+    .conteneur a {
+        margin-bottom: 15px;
+    }
+
+
+}

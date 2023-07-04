@@ -1,0 +1,113 @@
+body {
+    margin: 0px;
+    background-image: url(../img/pexels-alp-yildizlar-14994654.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    position: relative;
+
+
+}
+
+p.btn.btn-danger {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -32px;
+    font-family: "Roboto", sans-serif;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.conteneur {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 20%;
+    margin-bottom: 3%;
+    margin-top: 25px;
+}
+
+h1 {
+    font-family: "Bebas neue", sans-serif;
+    text-align: center;
+    font-size: 70px;
+    margin-top: 3%;
+}
+
+p {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+div.nom input {
+    width: 300px;
+    height: 50px;
+    border-radius: 7px;
+    border-color: rgba(0, 0, 0, 0.108);
+}
+
+textarea.form-control.bglight {
+    width: 300px;
+    height: 150px;
+    border-radius: 7px;
+    border-color: rgba(0, 0, 0, 0.108);
+    color: #D6B178;
+}
+
+div.prix input {
+    width: 200px;
+    height: 50px;
+    border-radius: 7px;
+    border-color: rgba(0, 0, 0, 0.108);
+}
+
+::placeholder {
+    color: rgba(2, 2, 2, 0.615);
+    opacity: 1;
+    padding-left: 10px;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+
+
+    /* Firefox */
+}
+
+div.submit input {
+    width: 200px;
+    height: 50px;
+    border-radius: 7px;
+    border-color: rgba(0, 0, 0, 0.108);
+    margin-top: 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 22px;
+    background-color: #D6B178;
+    color: #ffffff;
+    transition: 0.2s ease-in-out;
+
+}
+
+div.submit input:hover {
+
+    background-color: #ffffff;
+    color: #D6B178;
+
+}
+
+a {
+
+    position: absolute;
+    top: 15px;
+    left: 5%;
+    font-family: "Roboto", sans-serif;
+}
+
+p.btn.btn-danger {
+    opacity: 1;
+    transition: opacity 2s;
+}

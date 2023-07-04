@@ -1,0 +1,105 @@
+body {
+    margin: 0px;
+    background-image: url(../img/pexels-pixabay-301692.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+h1 {
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+p.btn.btn-danger {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 12px;
+    font-family: "Roboto", sans-serif;
+}
+
+p.btn.btn-success {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 12px;
+    font-family: "Roboto", sans-serif;
+}
+
+.conteneur {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form input.email {
+    margin-bottom: 10px;
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.258);
+    color: white;
+}
+
+form input.password {
+    margin-bottom: 10px;
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.258);
+    color: white;
+
+}
+
+form input.submit {
+    margin-bottom: 10px;
+    width: 300px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Bebas Neue', sans-serif;
+    border-radius: 5px;
+    color: #D6B178;
+    font-size: 24px;
+    transition: 0.2s ease-in-out;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+form input.submit:hover {
+    background-color: #D6B178;
+    color: #ffffff;
+    border: none;
+}
+
+::placeholder {
+    color: rgba(255, 255, 255, 0.523);
+    opacity: 1;
+    padding-left: 25px;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+
+
+    /* Firefox */
+}
+
+a {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 50px;
+}
+
+p.btn.btn-danger {
+    opacity: 1;
+    transition: opacity 2s;
+}
+
+p.btn.btn-success {
+    opacity: 1;
+    transition: opacity 2s;
+}

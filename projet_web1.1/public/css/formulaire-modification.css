@@ -1,0 +1,123 @@
+body {
+    margin: 0px;
+    background-color: black;
+    color: white;
+    background-image: url(../img/pexels-lukas-952479.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.conteneur {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+p.btn.btn-danger {
+    position: absolute;
+    left: 75%;
+    transform: translateX(-50%);
+    top: 5px;
+    font-family: "Roboto", sans-serif;
+}
+
+
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+h1 {
+    text-align: center;
+    font-family: "Bebas neue", sans-serif;
+    font-size: 70px;
+    margin-top: 2%;
+
+}
+
+a.btn.btn-primary {
+    font-family: "Roboto", sans-serif;
+    position: absolute;
+    top: 51px;
+    left: 5%;
+
+}
+
+::placeholder {
+    color: rgba(2, 2, 2, 0.262);
+    opacity: 1;
+    padding-left: 20px;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+
+
+    /* Firefox */
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+textarea#description.form-control.bg-light {
+
+    font-family: 'Roboto', sans-serif;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    border-color: transparent;
+}
+
+input.prix {
+
+    height: 50px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 7px;
+    border-color: transparent;
+    padding-left: 10px;
+}
+
+input.nom {
+    width: 300px;
+    height: 50px;
+    font-family: 'Roboto', sans-serif;
+    border-color: transparent;
+    border-radius: 7px;
+    padding-left: 10px;
+}
+
+input.submit {
+    width: 300px;
+    height: 50px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 7px;
+    border-color: transparent;
+    background-color: #D6B178;
+    color: #ffffff;
+    font-size: 22px;
+    transition: 0.2s ease-in-out;
+
+}
+
+input.submit:hover {
+
+    background-color: #ffffff;
+    color: #D6B178;
+}
+
+p {
+    margin: 0px;
+}
+
+p.btn.btn-danger {
+    opacity: 1;
+    transition: opacity 2s;
+}
+
+p.btn.btn-success {
+    opacity: 1;
+    transition: opacity 2s;
+}
